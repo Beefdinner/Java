@@ -1,0 +1,24 @@
+//calculate area of circle
+
+public class CalcAreaCirclei
+{
+
+  public static void main(String[] args)
+  {
+      //define constant
+     final double PI - 3.14159;
+     
+     //define variables
+     double radius;
+     double area;
+     
+     //initialize
+     radius = 3.5;
+     
+     //compute area
+     area = PI * radius * radius;
+     
+     //print area
+     system.out.println("area of circle is " + area)
+ }
+}
